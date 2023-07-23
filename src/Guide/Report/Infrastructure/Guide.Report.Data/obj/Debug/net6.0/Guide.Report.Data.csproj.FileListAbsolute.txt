@@ -1,0 +1,12 @@
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Data.deps.json
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Data.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Data.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.csproj.AssemblyReference.cache
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.AssemblyInfoInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.AssemblyInfo.cs
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.csproj.CoreCompileInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\refint\Guide.Report.Data.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\ref\Guide.Report.Data.dll

@@ -1,0 +1,12 @@
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\bin\Debug\net6.0\Guide.Report.Application.deps.json
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\bin\Debug\net6.0\Guide.Report.Application.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\bin\Debug\net6.0\Guide.Report.Application.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.csproj.AssemblyReference.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.AssemblyInfoInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.AssemblyInfo.cs
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.csproj.CoreCompileInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\refint\Guide.Report.Application.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\Guide.Report.Application.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Application\obj\Debug\net6.0\ref\Guide.Report.Application.dll

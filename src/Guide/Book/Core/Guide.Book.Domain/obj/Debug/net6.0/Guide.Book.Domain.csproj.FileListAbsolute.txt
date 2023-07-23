@@ -1,0 +1,12 @@
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\bin\Debug\net6.0\Guide.Book.Domain.deps.json
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\bin\Debug\net6.0\Guide.Book.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\bin\Debug\net6.0\Guide.Book.Domain.pdb
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.csproj.AssemblyReference.cache
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.AssemblyInfoInputs.cache
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.AssemblyInfo.cs
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.csproj.CoreCompileInputs.cache
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\refint\Guide.Book.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\Guide.Book.Domain.pdb
+D:\Apps\Guide\guide\src\Guide\Book\Core\Guide.Book.Domain\obj\Debug\net6.0\ref\Guide.Book.Domain.dll

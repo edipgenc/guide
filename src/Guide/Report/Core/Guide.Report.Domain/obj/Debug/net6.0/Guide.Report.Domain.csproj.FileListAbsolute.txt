@@ -1,0 +1,12 @@
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\bin\Debug\net6.0\Guide.Report.Domain.deps.json
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\bin\Debug\net6.0\Guide.Report.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\bin\Debug\net6.0\Guide.Report.Domain.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.csproj.AssemblyReference.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.AssemblyInfoInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.AssemblyInfo.cs
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.csproj.CoreCompileInputs.cache
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\refint\Guide.Report.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\Guide.Report.Domain.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Core\Guide.Report.Domain\obj\Debug\net6.0\ref\Guide.Report.Domain.dll
