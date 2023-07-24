@@ -1,4 +1,8 @@
+<div align="center">
 <h3 align="center">Guide Book</h3>
+</div>
+
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
