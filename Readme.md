@@ -5,8 +5,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a [href="https://github.com/edipgenc/guide">
+   [![Projeyi basit bir kişi rehberi olarak tanımlayabiliriz, burada önemli olan clean architecture, SOLID, generic repository, Queue gibi sistemlerin micros servis mimarisinde nasıl çalıştığını göstermektir]]
+</a>
 
-[![Projeyi basit bir kişi rehberi olarak tanımlayabiliriz, burada önemli olan clean architecture, SOLID, generic repository, Queue gibi sistemlerin micros servis mimarisinde nasıl çalıştığını göstermektir]](https://github.com/edipgenc/guide)
+ 
 <div>
 <p>
 <ul>
