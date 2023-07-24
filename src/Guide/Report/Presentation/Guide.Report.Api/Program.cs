@@ -1,5 +1,3 @@
-using ESourcing.Products.Repositories;
- 
 using Guide.Report.Application.Settings;
 using Guide.Report.Data;
 using Guide.Report.Data.Repositories.Interfaces;
@@ -9,6 +7,7 @@ using EventBusRabbitMQ.Producer;
 using Microsoft.Extensions.Options;
 
 using RabbitMQ.Client;
+using Guide.Report.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

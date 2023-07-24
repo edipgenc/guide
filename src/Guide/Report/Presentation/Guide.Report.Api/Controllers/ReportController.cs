@@ -3,6 +3,7 @@ using EventBusRabbitMQ.Events;
 using EventBusRabbitMQ.Producer;
 using Guide.Book.Application.Dto.CommonDto;
 using Guide.Report.Data.Repositories.Interfaces;
+using Guide.Report.Domain.Common;
 using Guide.Report.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -86,11 +87,11 @@ namespace Guide.Report.Api.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetPersonReportByLocation")]
-        public async Task<IActionResult> GetPersonReportByLocation()
+        public async Task<IActionResult> GetPersonReportByLocation(string Location)
         {
             try
             {
-                var data = await _reportRepository.Create(new ReportEntity() {ReportStatus=Domain.Comon.TReportStatus.Preparing,ReportRequestDate=DateTime.Now});
+                var data = await _reportRepository.Create(new ReportEntity() {ReportStatus=TReportStatus.Preparing,ReportRequestDate=DateTime.Now});
 
                 // Queue ya bir rapor isteği gönderiyoruz
  
@@ -99,7 +100,8 @@ namespace Guide.Report.Api.Controllers
                     Id = data.Id,
                     ReportStatus=EventBusRabbitMQ.Comon.TReportStatus.Preparing,
                     ReportType = "GetPersonReportByLocation", 
-                    ReportRequestDate = data.ReportRequestDate
+                    ReportRequestDate = data.ReportRequestDate,
+                    Location = Location
                 };
                 try
                 {

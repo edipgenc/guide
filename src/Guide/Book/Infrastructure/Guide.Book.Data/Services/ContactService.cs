@@ -2,6 +2,7 @@
 using FluentValidation;
 using Guide.Book.Application.Dto.CommonDto;
 using Guide.Book.Application.Dto.ContactsDto;
+using Guide.Book.Application.Dto.ReportDto;
 using Guide.Book.Data.Repositories.Interfaces;
 using Guide.Book.Data.Services.Interfaces;
 using Guide.Book.Domain.Entities;
@@ -32,6 +33,7 @@ namespace Guide.Book.Data.Services
             _validator = validator;
             _logger = logger;
         }
+
 
         public async Task<IActionResult> CreateAsync(CreateContactDto model)
         {

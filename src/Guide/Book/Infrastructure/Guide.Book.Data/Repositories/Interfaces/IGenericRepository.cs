@@ -9,6 +9,7 @@ namespace Guide.Book.Data.Repositories.Interfaces
 {
     public interface IGenericRepository<TEntity> where TEntity : BaseEntity
     {
+        IEnumerable<TEntity> GetSql(string sql);
         Task<IQueryable<TEntity>> GetAll();
         Task<TEntity> GetById(string id);
         Task<string> Create(TEntity entity);

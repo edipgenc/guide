@@ -12,12 +12,18 @@ namespace Guide.Book.Data.Repositories
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
     {
         private readonly ApplicationContext _dbContext;
-
+        
+        private DbSet<TEntity> _entities;
+        protected virtual DbSet<TEntity> Entities => _entities ?? (_entities = _dbContext.Set<TEntity>());
         public GenericRepository(ApplicationContext dbContext)
         {
             _dbContext = dbContext;
+            _entities = _dbContext.Set<TEntity>();
         }
-
+        public IEnumerable<TEntity> GetSql(string sql)
+        {
+            return Entities.FromSqlRaw(sql).AsNoTracking();
+        }
         public async Task<string> Create(TEntity entity)
         {
             entity.Id = Guid.NewGuid();

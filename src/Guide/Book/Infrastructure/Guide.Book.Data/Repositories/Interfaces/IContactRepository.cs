@@ -1,4 +1,5 @@
-﻿using Guide.Book.Domain.Entities;
+﻿using Guide.Book.Application.Dto.ReportDto;
+using Guide.Book.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace Guide.Book.Data.Repositories.Interfaces
 {
     public interface IContactRepository : IGenericRepository<Contact>
     {
+       
     }
 }

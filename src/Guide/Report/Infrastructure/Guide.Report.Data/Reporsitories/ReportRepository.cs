@@ -4,7 +4,7 @@ using Guide.Report.Data.Repositories.Interfaces;
 using Guide.Report.Domain.Entities;
 using MongoDB.Driver;
 
-namespace ESourcing.Products.Repositories
+namespace Guide.Report.Data.Repositories
 {
     public class ReportRepository : IReportRepository
     {

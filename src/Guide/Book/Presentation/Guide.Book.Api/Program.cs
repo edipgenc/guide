@@ -1,19 +1,43 @@
+using EventBusRabbitMQ;
+using EventBusRabbitMQ.Producer;
 using FluentValidation;
+using Guide.Book.Api.Extentions;
 using Guide.Book.Application.Dto.ContactsDto;
 using Guide.Book.Application.Dto.ContactsDto.PersonsDto;
 using Guide.Book.Application.Helper.Validations;
+using Guide.Book.Application.Settings;
 using Guide.Book.Data;
+using Guide.Book.Data.LocalStorage.Repositories;
+using Guide.Book.Data.LocalStorage.Repositories.Interfaces;
 using Guide.Book.Data.Repositories;
 using Guide.Book.Data.Repositories.Interfaces;
 using Guide.Book.Data.Services;
 using Guide.Book.Data.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+var config = builder.Configuration;
+
+#region Configuration Dependencies
+// here is the mongo config file and parameters settings
+builder.Services.Configure<BookDatabaseSettings>(builder.Configuration.GetSection(nameof(BookDatabaseSettings)));
+builder.Services.AddSingleton<IBookDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookDatabaseSettings>>().Value);
+#endregion
+
+#region Project Dependencies
+// here is the mongo database and parameters settings
+builder.Services.AddTransient<IBookReportContext, BookReportContext>();
+builder.Services.AddTransient<IBookReportRepository, BookReportRepository>();
+
+#endregion
+
+
 #region Configration Dependencies
 // Auto Mapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -34,15 +58,51 @@ AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
+builder.Services.AddScoped<IReportRepository, ReportRepository>();
 
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddScoped<IReportService, ReportService>();
+
+
 
 #endregion
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+#region EventBus
+//  RabbitMQ Connection
+builder.Services.AddSingleton<IRabbitMQPersistentConnection>(sp =>
+{
+    var logger = sp.GetRequiredService<ILogger<DefaultRabbitMQPersistentConnection>>();
+    var factory = new ConnectionFactory()
+    {
+        HostName = config["EventBus:HostName"]
+    };
+    if (!string.IsNullOrWhiteSpace(config["EventBus:UserName"]))
+    {
+        factory.UserName = config["EventBus:UserName"];
+    }
+    if (!string.IsNullOrWhiteSpace(config["EventBus:Password"]))
+    {
+        factory.Password = config["EventBus:Password"];
+    }
+    var RetryCount = 5;
+    if (!string.IsNullOrWhiteSpace(config["EventBus:RetryCount"]))
+    {
+        RetryCount = int.Parse(config["EventBus:RetryCount"]);
+    }
+    return new DefaultRabbitMQPersistentConnection(factory, RetryCount, logger);
+
+});
+
+// RabbitMQ Event Bus
+builder.Services.AddSingleton<EventBusRabbitMQProducer>();
+
+#endregion
 
 var app = builder.Build();
 
@@ -58,5 +118,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseRabbitListener();
 
 app.Run();

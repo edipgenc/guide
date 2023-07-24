@@ -12,6 +12,7 @@ namespace EventBusRabbitMQ.Events
     {
         public string Id { get; set; }
         public string ReportType { get; set; }
+        public string Location { get; set; }
         public DateTime ReportRequestDate { get; set; }
         public TReportStatus ReportStatus { get; set; }
       }

@@ -412,6 +412,10 @@
         }
       },
       "Guide.Book.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.20.0",
+          "MongoDB.Driver.Core": "2.20.0"
+        },
         "runtime": {
           "Guide.Book.Domain.dll": {}
         }
