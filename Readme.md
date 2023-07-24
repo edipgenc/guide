@@ -3,7 +3,7 @@
 ## About The Project
 
 [![Projeyi basit bir kişi rehberi olarak tanımlayabiliriz, burada önemli olan clean architecture, SOLID, generic repository, Queue gibi sistemlerin micros servis mimarisinde nasıl çalıştığını göstermektir]](https://github.com/edipgenc/guide)
-<div align="center">
+<div>
 <p>
 <ul>
 <li>
