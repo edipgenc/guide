@@ -4,6 +4,401 @@
     "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Presentation\\Guide.Report.Api\\Guide.Report.Api.csproj": {}
   },
   "projects": {
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\Guide.Book.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\Guide.Book.Application.csproj",
+        "projectName": "Guide.Book.Application",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\Guide.Book.Application.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\Guide.Book.Domain.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\Guide.Book.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\Guide.Book.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\Guide.Book.Domain.csproj",
+        "projectName": "Guide.Book.Domain",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\Guide.Book.Domain.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj",
+        "projectName": "Guide.Report.Application",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\Guide.Report.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\Guide.Report.Domain.csproj",
+        "projectName": "Guide.Report.Domain",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\Guide.Report.Domain.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\Guide.Report.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\Guide.Report.Data.csproj",
+        "projectName": "Guide.Report.Data",
+        "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\Guide.Report.Data.csproj",
+        "packagesPath": "C:\\Users\\edip_\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edip_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj"
+              },
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\Guide.Report.Domain.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Domain\\Guide.Report.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Presentation\\Guide.Report.Api\\Guide.Report.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +422,20 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\Guide.Book.Application.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Book\\Core\\Guide.Book.Application\\Guide.Book.Application.csproj"
+              },
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Comon\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              },
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Core\\Guide.Report.Application\\Guide.Report.Application.csproj"
+              },
+              "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\Guide.Report.Data.csproj": {
+                "projectPath": "D:\\Apps\\Guide\\guide\\src\\Guide\\Report\\Infrastructure\\Guide.Report.Data\\Guide.Report.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

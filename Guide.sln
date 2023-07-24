@@ -27,21 +27,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E147380A-6883-44E0-87D3-359F5C7C6C15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Book.Domain", "src\Guide\Book\Core\Guide.Book.Domain\Guide.Book.Domain.csproj", "{C8F67BD3-45AA-4EBD-85A6-E33A9B5E16E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Book.Domain", "src\Guide\Book\Core\Guide.Book.Domain\Guide.Book.Domain.csproj", "{C8F67BD3-45AA-4EBD-85A6-E33A9B5E16E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Book.Application", "src\Guide\Book\Core\Guide.Book.Application\Guide.Book.Application.csproj", "{E6FD9B75-540F-4D48-AFEC-9D3C53BBEEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Book.Application", "src\Guide\Book\Core\Guide.Book.Application\Guide.Book.Application.csproj", "{E6FD9B75-540F-4D48-AFEC-9D3C53BBEEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Book.Data", "src\Guide\Book\Infrastructure\Guide.Book.Data\Guide.Book.Data.csproj", "{4E0356A1-4C9B-4D60-AD19-1EDB6D098C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Book.Data", "src\Guide\Book\Infrastructure\Guide.Book.Data\Guide.Book.Data.csproj", "{4E0356A1-4C9B-4D60-AD19-1EDB6D098C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Book.Api", "src\Guide\Book\Presentation\Guide.Book.Api\Guide.Book.Api.csproj", "{1760793A-1D6E-44CD-ADCC-8C76A09912A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Book.Api", "src\Guide\Book\Presentation\Guide.Book.Api\Guide.Book.Api.csproj", "{1760793A-1D6E-44CD-ADCC-8C76A09912A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Report.Domain", "src\Guide\Report\Core\Guide.Report.Domain\Guide.Report.Domain.csproj", "{AADA308B-8CA3-47D1-99E5-7F29AE44C521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Report.Domain", "src\Guide\Report\Core\Guide.Report.Domain\Guide.Report.Domain.csproj", "{AADA308B-8CA3-47D1-99E5-7F29AE44C521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Report.Application", "src\Guide\Report\Core\Guide.Report.Application\Guide.Report.Application.csproj", "{6F472AE1-5E97-42B8-B0A7-CEE0F5B4C52F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Report.Application", "src\Guide\Report\Core\Guide.Report.Application\Guide.Report.Application.csproj", "{6F472AE1-5E97-42B8-B0A7-CEE0F5B4C52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Report.Data", "src\Guide\Report\Infrastructure\Guide.Report.Data\Guide.Report.Data.csproj", "{FDB137C3-BD2B-4540-9144-C5243A730198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Report.Data", "src\Guide\Report\Infrastructure\Guide.Report.Data\Guide.Report.Data.csproj", "{FDB137C3-BD2B-4540-9144-C5243A730198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.Report.Api", "src\Guide\Report\Presentation\Guide.Report.Api\Guide.Report.Api.csproj", "{104238F3-3C3F-48E9-90A8-06CCC3682B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guide.Report.Api", "src\Guide\Report\Presentation\Guide.Report.Api\Guide.Report.Api.csproj", "{104238F3-3C3F-48E9-90A8-06CCC3682B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comon", "Comon", "{70CFE5D8-5E90-4329-9185-CE42279D3A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusRabbitMQ", "src\Guide\Comon\EventBusRabbitMQ\EventBusRabbitMQ.csproj", "{CA64331A-9271-4825-A8D4-BE23DA8C0EB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,10 @@ Global
 		{104238F3-3C3F-48E9-90A8-06CCC3682B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{104238F3-3C3F-48E9-90A8-06CCC3682B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{104238F3-3C3F-48E9-90A8-06CCC3682B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA64331A-9271-4825-A8D4-BE23DA8C0EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA64331A-9271-4825-A8D4-BE23DA8C0EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA64331A-9271-4825-A8D4-BE23DA8C0EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA64331A-9271-4825-A8D4-BE23DA8C0EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +117,8 @@ Global
 		{6F472AE1-5E97-42B8-B0A7-CEE0F5B4C52F} = {101FA776-78A4-4374-93F7-F0E60A06DDD4}
 		{FDB137C3-BD2B-4540-9144-C5243A730198} = {A6DA967E-6DA4-47B1-976E-A28CBEB39698}
 		{104238F3-3C3F-48E9-90A8-06CCC3682B1E} = {E147380A-6883-44E0-87D3-359F5C7C6C15}
+		{70CFE5D8-5E90-4329-9185-CE42279D3A35} = {8C8BBF60-C510-49C3-97EE-E42E7CB47455}
+		{CA64331A-9271-4825-A8D4-BE23DA8C0EB0} = {70CFE5D8-5E90-4329-9185-CE42279D3A35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E862C5DB-33E7-4FC3-8B4F-CA9CCE531C56}

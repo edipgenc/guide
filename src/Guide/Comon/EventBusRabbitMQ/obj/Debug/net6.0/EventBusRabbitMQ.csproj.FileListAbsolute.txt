@@ -1,0 +1,12 @@
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.deps.json
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.dll
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\bin\Debug\net6.0\EventBusRabbitMQ.pdb
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.csproj.AssemblyReference.cache
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.AssemblyInfo.cs
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.dll
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\refint\EventBusRabbitMQ.dll
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\EventBusRabbitMQ.pdb
+D:\Apps\Guide\guide\src\Guide\Comon\EventBusRabbitMQ\obj\Debug\net6.0\ref\EventBusRabbitMQ.dll

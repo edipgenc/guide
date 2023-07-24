@@ -10,3 +10,8 @@ D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\
 D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\refint\Guide.Report.Data.dll
 D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.pdb
 D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\ref\Guide.Report.Data.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Application.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Domain.dll
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Application.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\bin\Debug\net6.0\Guide.Report.Domain.pdb
+D:\Apps\Guide\guide\src\Guide\Report\Infrastructure\Guide.Report.Data\obj\Debug\net6.0\Guide.Report.Data.csproj.CopyComplete
